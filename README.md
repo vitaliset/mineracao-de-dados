@@ -12,7 +12,7 @@ Rapidamente tentamos formular o problema no framework de *inferência causal*:
 - X: variáveis do cliente;
 - Y (outcome): cliente compra ou não o carro.  
 
-No projeto estou usando uma técnica chamada __covariate adjustment  __(que funciona muito bem quando o tratamento é distribuído de forma independente dos valores de X). Nesta técnica, utilizamos a variável de tratamento como uma das variáveis explicativas do modelo e para inferir os diferentes outcomes potenciais (valores diferentes de Y, dado um tratamento escolhido).
+No projeto estou usando uma técnica chamada **covariate adjustment** (que funciona muito bem quando o tratamento é distribuído de forma independente dos valores de X). Nesta técnica, utilizamos a variável de tratamento como uma das variáveis explicativas do modelo e para inferir os diferentes outcomes potenciais (valores diferentes de Y, dado um tratamento escolhido).
 
 A ideia prática do projeto é: dado um cliente novo que chega na loja, rodar o nosso algoritmo tentando prever a probabilidade de compra para cada um dos carros disponíveis em estoque na loja. Essa lista é fornecida ao vendedor que pode avaliar qual carro oferecer primeiro.
 
